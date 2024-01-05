@@ -1,79 +1,66 @@
-![image](https://raw.githubusercontent.com/brycehuston/portfolio/main/assets/50388731/45e2b076-299e-4d6c-82e6-7fca577995ed.png)
+[FLAP Project Banner]
 
-# My Portfolio
+# FLAP Project Portfolio
 
 ## Introduction
 
-Overview
+**Overview**
 
-I'm an experienced developer proficient in HTML, CSS, JavaScript, and related technologies. Skilled in creating visually appealing UI/UX designs and integrating data with REST APIs. Demonstrated ability to write clean, organized, and maintainable code with proper architecture, and ensure responsiveness across all devices. Also experienced in configuring devices, providing troubleshooting support, and conducting diagnostic assessments.
+Welcome to my FLAP project portfolio! As a developer passionate about game development and blockchain technology, I've dedicated my skills to creating FLAP - a novel play-to-earn gaming experience. My expertise lies in HTML, CSS, JavaScript, React, and Unity, all of which I've utilized to forge an immersive and interactive gaming environment.
 
-- Web Developer
-- React Native Developer
-- Backend Developer
-- Content Creator
+- Game Developer
+- Blockchain Enthusiast
+- Full Stack Developer
+- Creative Technologist
 
-<br>
+## Milestones in FLAP Development
 
-## What I Have Done So Far
+### Key Contributions
 
-### Work Experience
+#### FLAP - Game Development Lead
 
-#### Self-employed - Web Development
+- Led the development of FLAP, integrating blockchain for an innovative play-to-earn experience.
+- Designed and implemented engaging game mechanics and UI/UX for a captivating gaming experience.
+- Integrated smart contracts for secure, transparent gameplay and player transactions.
 
-- Developed and deployed websites using hosting platforms, WordPress, and page builders.
-- Customized websites with WordPress themes, plugins, and functionality to meet client requirements.
-- Utilized page builders to create visually appealing and interactive web pages for enhanced user experience.
-- Conducted website maintenance, including updates, backups, and security enhancements, to ensure optimal performance and functionality.
+#### FLAP - Blockchain Integration
 
-<br>
+- Seamlessly integrated Ethereum blockchain technology for secure in-game transactions.
+- Developed and implemented smart contracts for play-to-earn features, ensuring fairness and user engagement.
 
-#### TAFE - Software Development
+#### FLAP - Community Engagement
 
-- Developed software applications using Java, C#, PHP, and SQL, employing a wide range of programming languages and technologies.
-- Collaborated with cross-functional teams to gather requirements and translate them into functional software solutions.
-- Implemented best practices in software development, including code organization, version control, and documentation.
-- Conducted thorough testing, debugging, and optimization to ensure the reliability and performance of software applications.
+- Cultivated a vibrant FLAP gaming community, emphasizing support and collaboration.
+- Continuously sought player feedback for game improvement and feature updates.
 
-<br>
+## Showcase: FLAP in Action
 
-#### Personal Projects - Vanilla Web Developer
+### Featured Projects
 
-- Developed and maintained web applications using Vanilla JavaScript, Canvas, HTML, CSS, and related technologies.
-- Created interactive and dynamic web experiences using Vanilla JavaScript, implementing custom functionality and behavior.
-- Utilized Canvas to design visually appealing graphics, animations, and visual effects.
-- Developed responsive user interfaces with HTML and CSS, ensuring optimal display across devices and screen sizes.
+Here are some of my key projects in the FLAP development journey:
 
-<br>
+#### FLAP Game Interface
 
-#### Freelancer - React Native Developer
+- [GitHub](https://github.com/brycehuston/flap_game)
+- [Live Demo](https://flapgame.example.com)
 
-- Developed and maintained web applications using React.js and React Native, along with related technologies such as Tailwind CSS and REST APIs.
-- Implemented responsive design techniques for seamless user experiences across devices and browsers.
-- Participated in code reviews, providing constructive feedback to enhance code quality and maintainability.
-- Utilized comprehensive knowledge of React.js and React Native to optimize application performance and scalability.
+An immersive play-to-earn game interface showcasing interactive gameplay and engaging design.
 
-<br>
+_Tags: #gameDevelopment, #react, #unity_
 
-## My Work
+#### FLAP Blockchain Integration
 
-### Projects
+- [GitHub](https://github.com/brycehuston/flap_blockchain)
 
-Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+Explore the integration of blockchain in FLAP, highlighting the use of Ethereum and smart contracts.
 
-<br>
+_Tags: #blockchain, #ethereum, #smartContracts_
 
-#### ThreeJS 3D
+#### Community Building Initiatives
 
-- [GitHub](https://github.com/brycehuston/ai_threejs_project)
-- [Live Demo](https://vanillaart.ca)
+- [GitHub](https://github.com/brycehuston/flap_community)
 
-ThreeJS-based web application that allows users to load, create, and customize stunning 3D models and geometries with various lights, as well as understand the 3D world.
+Initiatives focused on building a strong, interactive community around FLAP.
 
-Tags: #react, #threejs, #tailwindcss
+_Tags: #communityEngagement, #playerFeedback, #support_
 
-<br>
-
-#### Job Search
-
-- [GitHub](
