@@ -8,13 +8,6 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
     wp,
     vs,
     vc,
@@ -23,8 +16,6 @@ import {
     bryce,
     fitness,
     carart,
-    jobit,
-    tripguide,
     threejs,
     jobsearch,
     nftmarket,
@@ -40,7 +31,11 @@ export const navLinks = [
     },
     {
         id: "work",
-        title: "Work",
+        title: "Road Map",
+    },
+    {
+        id: "token",
+        title: "Tokenomics",
     },
     {
         id: "contact",
@@ -50,19 +45,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Innovative Gameplay",
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Tokenomics and Rewards",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Tech-Savvy Development",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Join the Adventure",
         icon: creator,
     },
 ];
@@ -88,91 +83,53 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
 ];
 
 const experiences = [
     {
-        title: "Web Development",
-        company_name: "Self-employed",
+        title: "Setting the Stage",
+        company_name: "Phase 1",
         icon: wp,
         iconBg: "#383E56",
-        date: "Feb 2017 - Oct 2018",
+        date: "",
         points: [
-            "Developed and deployed websites using hosting platforms, WordPress, and page builders.",
-            "Customized websites with WordPress themes, plugins, and functionality to meet client requirements.",
-            "Utilized page builders to create visually appealing and interactive web pages for enhanced user experience.",
-            "Conducted website maintenance, including updates, backups, and security enhancements, to ensure optimal performance and functionality.",
+            "Game Development",
+            "Web Design",
+            "Social Media Presence",
+            "Community Building",
         ],
     },
     {
-        title: "Software Development",
-        company_name: "TAFE",
+        title: "Launch and Engage",
+        company_name: "Phase 2",
         icon: vs,
         iconBg: "#E6DEDD",
-        date: "Nov 2018 - Dec 2019",
+        date: "",
         points: [
-            "Developed software applications using Java, C#, PHP, and SQL, employing a wide range of programming languages and technologies.",
-            "Collaborated with cross-functional teams to gather requirements and translate them into functional software solutions.",
-            "Implemented best practices in software development, including code organization, version control, and documentation.",
-            "Conducted thorough testing, debugging, and optimization to ensure the reliability and performance of software applications.",
+            "Play-to-Earn Activation",
+            "Community Missions",
+            "Community Vote For New P2E Games",
         ],
     },
     {
-        title: "Vanilla Web Developer",
-        company_name: "Personal Projects",
+        title: "Expansion and Growth",
+        company_name: "Phase 3",
         icon: js,
         iconBg: "#383E56",
-        date: "Jan 2020 - Feb 2022",
+        date: "",
         points: [
-            "Developed and maintained web applications using Vanilla JavaScript, Canvas, HTML, CSS, and related technologies.",
-            "Created interactive and dynamic web experiences using Vanilla JavaScript, implementing custom functionality and behavior.",
-            "Utilized Canvas to design visually appealing graphics, animations, and visual effects.",
-            "Developed responsive user interfaces with HTML and CSS, ensuring optimal display across devices and screen sizes.",
+            "Centralized Exchange (CEX) Listings",
+            "Game Expansion",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Freelancer",
+        title: "Continue...",
+        company_name: "Phase 4",
         icon: vc,
         iconBg: "#E6DEDD",
-        date: "Mar 2022 - Present",
+        date: "",
         points: [
-            "Developed and maintained web applications using React.js and React Native, along with related technologies such as Tailwind CSS and REST APIs.",
-            "Implemented responsive design techniques for seamless user experiences across devices and browsers.",
-            "Participated in code reviews, providing constructive feedback to enhance code quality and maintainability",
-            "Utilized comprehensive knowledge of React.js and React Native to optimize application performance and scalability.",
+
         ],
     },
 ];
@@ -180,160 +137,92 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "Bryce was able twice to help me set up my printer with my new laptop and to trouble shoot setting up my new laptop. He is patient, knowledgeable, reliable and responds to help requests promptly!  I would highly recommend Bryce!  His price is reasonable and he is very knowledgeable.",
-        name: "Jadine Leclaire",
-        designation: "CTO",
-        company: "HWH",
+            "In 2013, the mobile gaming world witnessed a phenomenon: Flappy Bird. A simple yet captivating game that rapidly climbed to the zenith of popularity, Flappy Bird's tale is one of instant fame and sudden disappearance. Its creator, Dong Nguyen, crafted this masterpiece driven by a passion for game development, rooted in his early admiration for classics like Super Mario Bros. The game's simplistic design, coupled with a high level of challenge, resonated with millions, leading to an astounding 90 million downloads. Just as Flappy Bird was a product of Nguyen's creativity and understanding of gamers' desires for straightforward yet engaging gameplay, our game, FLAP, is built on similar foundations. We too have delved into the realms of simplicity and challenge, creating a game that captivates and intrigues, much like Flappy Bird did. However, while FLAP draws inspiration from the mechanics and viral nature of Flappy Bird, it branches into new territories, infusing the play-to-earn model into its core. This innovative approach not only offers the thrill of gameplay but also adds a layer of reward, giving players a chance to earn as they navigate through the challenges of the game. Like Nguyen, we understand the power of simplicity in game design and the magnetic pull of a challenge. But we also recognize the evolving landscape of gaming, where players seek not just entertainment but also opportunities for reward and community engagement. FLAP is our answer to this new era of gaming - a nod to the classics like Flappy Bird but with a modern twist that aligns with today's gaming ethos. As FLAP takes flight, we remember the lessons from Flappy Bird's journey - the importance of balancing success with the personal well-being of creators and the community's role in shaping a game's destiny. In this spirit, FLAP aims to soar into the hearts of players globally, offering not just a game but a community and a chance to be part of something rewarding.",
+        name: "Nucleus_AI",
+        designation: "WRITER",
+        company: "YOURSTORY.COM",
         image: jadine,
-    },
-    {
-        testimonial:
-            "Bryce has solved my computer problems on three different occasions and I have been happy with the results each time. He is knowledgeable, articulate and has provided valuable information.Next time I have a computer he will be the one I call, he is my go to guy.",
-        name: "Roland Blaise",
-        designation: "CFO",
-        company: "Okanagan Builders",
-        image: roland,
-    },
-    {
-        testimonial:
-            "I hired Bryce to develop my website several years ago as well as produce a short video and was very happy with the results.  Had a Mac computer that we couldn't access due to not knowing the passcode.  Even the Apple Specialist couldn't break it.  Bryce worked his magic and figured it out.",
-        name: "Jackie Lysak",
-        designation: "COO",
-        company: "Home Made Perfect",
-        image: jackie,
     },
 ];
 
 const projects = [
     {
-        name: "ThreeJS 3D",
+        name: "FLAPP2E",
         description:
-            "ThreeJS-based web application that allows users to load, create, and customize stunning 3D models and geometries with various lights, as well as understand the 3D world.",
+            "NAME",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "threejs",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwindcss",
+                name: "FLAP",
                 color: "pink-text-gradient",
             },
         ],
         image: threejscover,
-        source_code_1: "https://github.com/brycehuston/ai_threejs_project",
         source_code_2: "https://vanillaart.ca",
     },
     {
-        name: "Job Search",
+        name: "FLAP",
         description:
-            "Application using API's that enables users to search for job openings, view estimated salary , roles and qualifications, and apply for jobs based on their location.",
+            "SYMBOL",
         tags: [
             {
-                name: "reactnative",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
+                name: "PLAY2EARN",
                 color: "green-text-gradient",
-            },
-            {
-                name: "vite",
-                color: "pink-text-gradient",
             },
         ],
         image: jobsearch,
-        source_code_1: "https://github.com/brycehuston/project_react_native_jobs",
+        source_code_2: "https://github.com/brycehuston/project_react_native_jobs",
     },
     {
-        name: "NFT Marketplace",
+        name: "SOLANA",
         description:
-            "App and landing page using Expo and React Native, hosted on a fully decentralized peer-to-peer exchange. (View in Brave Browser or Chrome with Unstoppable Extention)",
+            "NETWORK",
         tags: [
             {
-                name: "blockchain",
+                name: "BLOCKCHAIN",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "web3.0",
-                color: "green-text-gradient",
-            },
-            {
-                name: "NFTs",
-                color: "pink-text-gradient",
             },
         ],
         image: nftmarket,
-        source_code_1: "https://github.com/brycehuston/nft_store",
         source_code_2: "https://vanillaart.crypto",
     },
     {
-        name: "Car Art",
+        name: "2% BUY & SELL TAX",
         description:
-            "Indulge in vintage automotive art. Elevate your space with timeless classics. Explore our website for captivating masterpieces. Fuel your passion for classic cars.",
+            "TAX",
         tags: [
             {
-                name: "wordpress",
+                name: "TAXWALLET",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "woocommerce",
-                color: "green-text-gradient",
-            },
-            {
-                name: "store",
-                color: "pink-text-gradient",
             },
         ],
         image: carart,
-        source_code_1: "https://github.com/brycehuston/",
         source_code_2: "https://pacificcarart.com/",
     },
     {
-        name: "Personal Website",
+        name: "1 BILLION",
         description:
-            "Unveil my story. Showcase my passions, achievements, and aspirations. Experience my personal website that reflects my unique journey.",
+            "TOTAL SUPPLY",
         tags: [
+
             {
-                name: "wordpress",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "promote",
-                color: "green-text-gradient",
-            },
-            {
-                name: "business",
+                name: "SUPPLYCHAIN",
                 color: "pink-text-gradient",
             },
         ],
         image: bryce,
-        source_code_1: "https://github.com/brycehuston/portfolio",
         source_code_2: "https://brycehuston.com/",
     },
     {
-        name: "Massage & Fitness",
+        name: "RENOUNCED",
         description:
-            "Get fit on the go! Our mobile fitness and massage website brings wellness to your fingertips. Stay active and relaxed wherever you are.",
+            "CONTRACT",
         tags: [
             {
-                name: "wordpress",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "elementor",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "services",
+                name: "OWNERSHIP",
                 color: "green-text-gradient",
             },
         ],
         image: fitness,
-        source_code_1: "https://github.com/brycehuston/",
         source_code_2: "https://mobilefitnessandmassage.com/",
     },
 ];

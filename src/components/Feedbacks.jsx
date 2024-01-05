@@ -7,7 +7,7 @@ import { testimonials } from "../constants";
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3x1 xs:w-[320px] w-full"
+    className="bg-black-200 p-10 rounded-3x1 w-full"
   >
     <p className="text-white font-black- text-[48px]">"</p>
 
@@ -20,7 +20,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
           className="blue-text-gradient">@</span> {name}
         </p>
         <p className="mt-1 text-secondary text-[12px]">
-          {designation} of {company}
+          {designation} at {company}
         </p>
       </div>
       <img 
@@ -41,8 +41,8 @@ const Feedbacks = () => {
       <div className={`${styles.padding}
       bg-tertiary rounded-2x1 min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials</h2>
+          <p className={styles.sectionSubText}>Genesis</p>
+          <h2 className={styles.sectionHeadText}>FLAPPY: The Origin Story</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex felx-wrap gap-7`}>

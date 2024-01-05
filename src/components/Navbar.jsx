@@ -25,7 +25,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
           <p className="text-white text-[18-px] font-bold cursor-pointer flex"> &nbsp;
-          <span className="sm:block hidden">Huston Solutions </span>
+          <span className="sm:block hidden">FAPP2E </span>
 
           </p>
         

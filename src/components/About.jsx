@@ -36,20 +36,18 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>Game Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a experienced developer proficient in HTML, CSS, JavaScript, 
-        and related technologies. Skilled in creating visually appealing 
-        UI/UX designs and integrating data with REST APIs. Demonstrated 
-        ability to write clean, organized, and maintainable code with proper 
-        architecture, and ensure responsiveness across all devices. 
-        Also experienced in configuring devices, providing troubleshooting 
-        support, and conducting diagnostic assessments.
+        Welcome to FLAPP2E, a revolutionary play-to-earn experience crafted 
+        by an expert team skilled in blockchain technology, game design, and 
+        smart contract development. Utilizing the power of React, Unity & Solidity for a seamless 
+        and responsive user interface, our game is designed to provide an engaging 
+        and interactive experience.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -9,14 +9,14 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] 
       max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]"/>
-          <div className="w-1 sm:h-80 h-40 violet-gradient"/>
+          <div className="w-5 h-5 rounded-full bg-[#39F7D4]"/>
+          <div className="w-1 sm:h-80 h-40 green-pink-gradient"/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm 
-          <span className="text-[#915eff]"> Bryce</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>PLAY
+          <span className="text-[#e6c954]"> FLAPP2E</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" /> interfaces and web applications
+            The Best Play 2 Earn <br className="sm:block hidden" /> Game of 2024!
           </p>
         </div>        
       </div>
