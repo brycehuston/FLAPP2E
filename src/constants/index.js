@@ -72,11 +72,11 @@ const services2 = [
         icon: mobile,
     },
     {
-        title: "CHART",
+        title: "FLAP CHART",
         icon: backend,
     },
     {
-        title: "GAME",
+        title: "PLAY GAME",
         icon: creator,
         url: "https://bossbytes.itch.io/flap-basic",
     },
