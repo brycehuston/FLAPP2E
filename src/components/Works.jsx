@@ -22,7 +22,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_1, sou
       >
         <div className="relative w-full">
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          {/* <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div              
               onClick={() => window.open
               (source_code_2, "_blank")}
@@ -37,7 +37,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_1, sou
               />
             </div>                  
             
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-5">
@@ -98,11 +98,8 @@ const Works = () => {
             FLAP CONTRACT ADDRESS:
           </p>
           <div className="flex items-center gap-2">
-          <h2 
-        style={{ fontSize: '25px' }} // Inline style for font size
-        className={styles.sectionHeadText}
-      >
-        {walletAddress}
+          <h2 className="font-bold text-lg md:text-2xl lg:text-3xl">
+        {walletAddress} 
       </h2>
             <img 
               src={link} // Replace with your copy icon's path

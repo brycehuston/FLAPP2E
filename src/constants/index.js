@@ -46,19 +46,39 @@ export const navLinks = [
 const services = [
     {
         title: "Innovative Gameplay",
-        icon: web,
+        icon: creator,
     },
     {
         title: "Tokenomics and Rewards",
-        icon: mobile,
-    },
-    {
-        title: "Tech-Savvy Development",
         icon: backend,
     },
     {
+        title: "Tech-Savvy Development",
+        icon: mobile,
+    },
+    {
         title: "Join the Adventure",
+        icon: web,
+    },
+];
+
+const services2 = [
+    {
+        title: "TELEGRAM",
+        icon: web,
+    },
+    {
+        title: "TWITTER",
+        icon: mobile,
+    },
+    {
+        title: "CHART",
+        icon: backend,
+    },
+    {
+        title: "GAME",
         icon: creator,
+        url: "https://bossbytes.itch.io/flap-basic",
     },
 ];
 
@@ -170,7 +190,7 @@ const projects = [
             },
         ],
         image: jobsearch,
-        source_code_2: "https://github.com/brycehuston/project_react_native_jobs",
+
     },
     {
         name: "SOLANA",
@@ -227,4 +247,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, };
+export { services, services2, technologies, experiences, testimonials, projects, };
