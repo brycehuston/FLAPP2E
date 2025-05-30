@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>PLAY
           <span className="text-[#e6c954]"> FLAPP2E</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            The Best Play 2 Earn <br className="sm:block hidden" /> Game of 2024!
+            The Best Play 2 Earn <br className="sm:block hidden" /> Game of 2025!
           </p>
         </div>        
       </div>

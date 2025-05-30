@@ -66,6 +66,7 @@ const services2 = [
     {
         title: "TELEGRAM",
         icon: web,
+        url: "https://t.me/flapp2earn",
     },
     {
         title: "TWITTER",
@@ -107,49 +108,64 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Setting the Stage",
+        title: "Community Ignition",
         company_name: "Phase 1",
         icon: wp,
         iconBg: "#383E56",
         date: "",
         points: [
-            "Game Development",
-            "Web Design",
-            "Social Media Presence",
-            "Community Building",
+            "Launch X (Twitter) and Telegram",
+            "Build early hype with teasers and community engagement",
+            "Whitelist early members for sneak peeks",
         ],
     },
     {
-        title: "Launch and Engage",
+        title: "Web Reveal",
         company_name: "Phase 2",
         icon: vs,
         iconBg: "#E6DEDD",
         date: "",
         points: [
-            "Play-to-Earn Activation",
-            "Community Missions",
-            "Community Vote For New P2E Games",
+            "Launch official FLAP website",
+            "Showcase tokenomics, roadmap, and community goals",
+            "Begin FLAP education push",
         ],
     },
     {
-        title: "Expansion and Growth",
+        title: "Game Goes Live (Desktop First)",
         company_name: "Phase 3",
         icon: js,
         iconBg: "#383E56",
         date: "",
         points: [
-            "Centralized Exchange (CEX) Listings",
-            "Game Expansion",
+            "Launch playable desktop version of FLAP",
+            "Enable high score leaderboard (desktop only)",
+            "Implement token-gated play and weekly rewards",
         ],
     },
     {
-        title: "Continue...",
+        title: "Mobile Integration",
         company_name: "Phase 4",
         icon: vc,
         iconBg: "#E6DEDD",
         date: "",
         points: [
-
+            "Release mobile-compatible version of FLAP",
+            "Leaderboard support now working on mobile",
+            "Wallet integration coming soon",
+        ],
+    },
+    {
+        title: "Global Expansion",
+        company_name: "Phase 5",
+        icon: js,
+        iconBg: "#383E56",
+        date: "",
+        points: [
+            "Launch NFT character minting",
+            "List FLAP on CoinGecko & CoinMarketCap",
+            "Partner with influencers and gaming communities",
+            "Host community tournaments and seasonal events",
         ],
     },
 ];
