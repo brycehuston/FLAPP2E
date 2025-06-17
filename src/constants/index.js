@@ -66,20 +66,22 @@ const services2 = [
     {
         title: "TELEGRAM",
         icon: web,
-        url: "https://t.me/flapp2earn",
+        url: "https://t.me/flapp2e",
     },
     {
         title: "TWITTER",
         icon: mobile,
+        url: "https://x.com/flapp2e",
     },
     {
         title: "FLAP CHART",
         icon: backend,
+        url: "https://www.tradingview.com/chart/?symbol=BINANCE%3ASOLUSD",
     },
     {
         title: "PLAY GAME",
         icon: creator,
-        url: "https://bossbytes.itch.io/flap-basic",
+        url: "https://bossbytes.itch.io/flapp2e",
     },
 ];
 
