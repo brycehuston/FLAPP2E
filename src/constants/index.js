@@ -74,9 +74,9 @@ const services2 = [
         url: "https://x.com/flapp2e",
     },
     {
-        title: "FLAP CHART",
+        title: "WHITEPAPER",
         icon: backend,
-        url: "https://www.tradingview.com/chart/?symbol=BINANCE%3ASOLUSD",
+        url: "https://fruxs-organization.gitbook.io/flap-whitepaper",
     },
     {
         title: "PLAY GAME",
