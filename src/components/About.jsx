@@ -43,11 +43,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to FLAPP2E, a revolutionary play-to-earn experience crafted 
-        by an expert team skilled in blockchain technology, game design, and 
-        smart contract development. Utilizing the power of React, Unity & Solidity for a seamless 
-        and responsive user interface, our game is designed to provide an engaging 
-        and interactive experience.
+        Welcome to FLAPP2E, the adrenaline-charged play-to-earn arcade game where skill = SOL.
+        Powered by Unity and built on Solana, FLAPP2E blends retro gaming challenge with modern crypto incentives.
+        Flap your way to the top of the leaderboard each week and earn real rewards — no pay-to-win gimmicks, 
+        just pure skill and community competition.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

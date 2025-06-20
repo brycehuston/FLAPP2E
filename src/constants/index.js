@@ -81,7 +81,7 @@ const services2 = [
     {
         title: "PLAY GAME",
         icon: creator,
-        url: "https://bossbytes.itch.io/flapp2e",
+        // url: "https://bossbytes.itch.io/flapp2e",
     },
 ];
 
@@ -175,7 +175,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "In 2013, the mobile gaming world witnessed a phenomenon: Flappy Bird. A simple yet captivating game that rapidly climbed to the zenith of popularity, Flappy Bird's tale is one of instant fame and sudden disappearance. Its creator, Dong Nguyen, crafted this masterpiece driven by a passion for game development, rooted in his early admiration for classics like Super Mario Bros. The game's simplistic design, coupled with a high level of challenge, resonated with millions, leading to an astounding 90 million downloads. Just as Flappy Bird was a product of Nguyen's creativity and understanding of gamers' desires for straightforward yet engaging gameplay, our game, FLAP, is built on similar foundations. We too have delved into the realms of simplicity and challenge, creating a game that captivates and intrigues, much like Flappy Bird did. However, while FLAP draws inspiration from the mechanics and viral nature of Flappy Bird, it branches into new territories, infusing the play-to-earn model into its core. This innovative approach not only offers the thrill of gameplay but also adds a layer of reward, giving players a chance to earn as they navigate through the challenges of the game. Like Nguyen, we understand the power of simplicity in game design and the magnetic pull of a challenge. But we also recognize the evolving landscape of gaming, where players seek not just entertainment but also opportunities for reward and community engagement. FLAP is our answer to this new era of gaming - a nod to the classics like Flappy Bird but with a modern twist that aligns with today's gaming ethos. As FLAP takes flight, we remember the lessons from Flappy Bird's journey - the importance of balancing success with the personal well-being of creators and the community's role in shaping a game's destiny. In this spirit, FLAP aims to soar into the hearts of players globally, offering not just a game but a community and a chance to be part of something rewarding.",
+            "In 2013, the mobile gaming world witnessed a phenomenon: Flappy Bird. A simple yet captivating game that rapidly climbed to the zenith of popularity, Flappy Bird's tale is one of instant fame and sudden disappearance. Its creator, Dong Nguyen, crafted this masterpiece driven by a passion for game development, rooted in his early admiration for classics like Super Mario Bros. The game's simplistic design, coupled with a high level of challenge, resonated with millions, leading to an astounding 90 million downloads. Just as Flappy Bird was a product of Nguyen's creativity and understanding of gamers' desires for straightforward yet engaging gameplay, our game, FLAP, is built on similar foundations. We too have delved into the realms of simplicity and challenge, creating a game that captivates and intrigues, much like Flappy Bird did. However, while FLAP draws inspiration from the mechanics and viral nature of Flappy Bird, it branches into new territories, infusing the play-to-earn model into its core. This innovative approach not only offers the thrill of gameplay but also adds a layer of reward, giving players a chance to earn as they navigate through the challenges of the game. Like Nguyen, we understand the power of simplicity in game design and the addictive pull of challenge. But FLAPP2E doesn’t stop there — we’ve layered in real-world rewards and community-driven incentives. With weekly high score competitions, leaderboard visibility, and real SOL prizes, FLAPP2E transforms nostalgic gameplay into a new era of arcade rewards. This isn’t just about chasing a bird anymore — it’s about chasing the bag.",
         name: "Nucleus_AI",
         designation: "WRITER",
         company: "YOURSTORY.COM",
@@ -224,7 +224,7 @@ const projects = [
         source_code_2: "https://vanillaart.crypto",
     },
     {
-        name: "2% BUY & SELL TAX",
+        name: "1% BUY  3% SELL",
         description:
             "TAX",
         tags: [
