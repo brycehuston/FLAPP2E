@@ -40,7 +40,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_1, sou
 };
 
 const Works = () => {
-  const walletAddress = '0x1e047ACD0708aB789D8329773eAd8B6603c30318';
+  const walletAddress = 'MINTED SOON';
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(walletAddress)
