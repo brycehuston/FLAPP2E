@@ -6,6 +6,8 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+const currentPhase = 2; // index starts from 0, so 2 means Phase 3
+
 const ExperienceCard = ({ experience, index }) => (
   <VerticalTimelineElement
     contentStyle={{
@@ -24,9 +26,22 @@ const ExperienceCard = ({ experience, index }) => (
       justifyContent: "center",
     }}
     icon={
-      <div className="w-full h-full flex items-center justify-center rounded-full bg-gradient-to-br from-[#00cea8] via-[#bf61ff] to-[#1a1a1a] animate-pulse shadow-xl">
-        <span className="text-white text-[20px] font-bold">{index + 1}</span>
-      </div>
+<div
+  className={`w-full h-full flex items-center justify-center rounded-full 
+    ${
+      index < currentPhase
+        ? "bg-[#1a1a1a] border-2 border-[#00cea8] shadow-lg"         // Completed
+        : index === currentPhase
+        ? "bg-gradient-to-br from-[#00cea8] via-[#bf61ff] to-[#1a1a1a] animate-pulse shadow-xl" // Active
+        : "bg-[#1a1a1a] border border-gray-700 opacity-50"           // Future
+    }
+  `}
+>
+  <span className="text-white text-[20px] font-bold">
+    {index + 1}
+  </span>
+</div>
+
     }
   >
     <motion.div
@@ -34,7 +49,12 @@ const ExperienceCard = ({ experience, index }) => (
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      <div className="card-shimmer green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+      <div
+  className={`card-shimmer green-pink-gradient p-[1px] rounded-[20px] shadow-card ${
+    index > currentPhase ? "opacity-50 grayscale" : ""
+  }`}
+>
+
         <div className="bg-[#1a1a1a] rounded-[20px] py-5 px-6">
           <h3 className="text-[24px] font-extrabold text-white">
             {experience.title}
