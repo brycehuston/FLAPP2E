@@ -114,7 +114,7 @@ const experiences = [
         company_name: "Phase 1",
         icon: wp,
         iconBg: "#383E56",
-        date: "26/05/2025",
+        //date: "26/05/2025",
         points: [
             "Launch X (Twitter) and Telegram",
             "Build early hype with teasers and community engagement",
@@ -126,7 +126,7 @@ const experiences = [
         company_name: "Phase 2",
         icon: vs,
         iconBg: "#E6DEDD",
-        date: "20/06/2025",
+        //date: "20/06/2025",
         points: [
             "Launch official FLAP website",
             "Showcase tokenomics, roadmap, and community goals",
@@ -138,9 +138,9 @@ const experiences = [
         company_name: "Phase 3",
         icon: js,
         iconBg: "#383E56",
-        date: "Coming Soon...",
+        //date: "Coming Soon...",
         points: [
-            "Launch playable version of FLAP",
+            "Launch and play on desktop + mobile",
             "Enable high score leaderboard",
             "Implement token-gated play and weekly rewards",
         ],

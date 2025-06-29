@@ -210,4 +210,22 @@
   animation: slow-pulse 3s ease-in-out infinite;
 }
 
+@keyframes swirl-border {
+  0% {
+    background-position: 0% 50%;
+    transform: rotate(0deg);
+  }
+  100% {
+    background-position: 100% 50%;
+    transform: rotate(360deg);
+  }
+}
+
+.animate-swirl-border {
+  animation: swirl-border 6s linear infinite;
+  background-size: 200% 200%;
+}
+
+
+
 

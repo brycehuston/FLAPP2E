@@ -6,7 +6,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const currentPhase = 2; // index starts from 0, so 2 means Phase 3
+const currentPhase = 2; // Phase 3 (index 2)
 
 const ExperienceCard = ({ experience, index }) => (
   <VerticalTimelineElement
@@ -16,7 +16,9 @@ const ExperienceCard = ({ experience, index }) => (
       borderRadius: "20px",
       padding: "0px",
     }}
-    contentArrowStyle={{ borderRight: "7px solid #00cea8" }}
+    contentArrowStyle={{
+      borderRight: "7px solid #00cea8",
+    }}
     date={experience.date}
     iconStyle={{
       background: "#1a1a1a",
@@ -26,22 +28,21 @@ const ExperienceCard = ({ experience, index }) => (
       justifyContent: "center",
     }}
     icon={
-<div
-  className={`w-full h-full flex items-center justify-center rounded-full 
-    ${
-      index < currentPhase
-        ? "bg-[#1a1a1a] border-2 border-[#00cea8] shadow-lg"         // Completed
-        : index === currentPhase
-        ? "bg-gradient-to-br from-[#00cea8] via-[#bf61ff] to-[#1a1a1a] animate-pulse shadow-xl" // Active
-        : "bg-[#1a1a1a] border border-gray-700 opacity-50"           // Future
-    }
-  `}
->
-  <span className="text-white text-[20px] font-bold">
-    {index + 1}
-  </span>
-</div>
-
+      <div
+        className={`w-full h-full flex items-center justify-center rounded-full 
+          ${
+            index < currentPhase
+              ? "bg-[#1a1a1a] border-2 border-[#00cea8] shadow-lg"
+              : index === currentPhase
+              ? "bg-gradient-to-br from-[#00cea8] via-[#bf61ff] to-[#1a1a1a] animate-pulse shadow-xl"
+              : "bg-[#1a1a1a] border border-gray-700 opacity-50"
+          }
+        `}
+      >
+        <span className="text-white text-[20px] font-bold">
+          {index + 1}
+        </span>
+      </div>
     }
   >
     <motion.div
@@ -50,20 +51,44 @@ const ExperienceCard = ({ experience, index }) => (
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <div
-  className={`card-shimmer green-pink-gradient p-[1px] rounded-[20px] shadow-card ${
-    index > currentPhase ? "opacity-50 grayscale" : ""
-  }`}
->
-
-        <div className="bg-[#1a1a1a] rounded-[20px] py-5 px-6">
-          <h3 className="text-[24px] font-extrabold text-white">
+        className={`relative rounded-[20px] p-[2px] shadow-card ${
+          index === 2
+            ? "bg-gradient-to-br from-yellow-400 via-yellow-300 to-yellow-400"
+            : "card-shimmer green-pink-gradient"
+        } ${index > currentPhase ? "opacity-50 grayscale" : ""}`}
+      >
+        <div
+          className={`rounded-[18px] py-5 px-6 ${
+            index === 2
+              ? "bg-[#fff8c7] text-black"
+              : "bg-[#1a1a1a] text-white"
+          }`}
+        >
+          <h3
+            className={`text-[24px] font-extrabold flex items-center ${
+              index === 2 ? "text-black" : "text-white"
+            }`}
+          >
             {experience.title}
+            {index === 2 && (
+              <span className="ml-3 px-2 py-1 text-xs bg-yellow-400 text-black rounded animate-pulse">
+                LIVE
+              </span>
+            )}
           </h3>
-          <p className="text-gray-300 text-[16px] font-semibold mb-4">
+          <p
+            className={`text-[16px] font-semibold mb-4 ${
+              index === 2 ? "text-black" : "text-gray-300"
+            }`}
+          >
             {experience.company_name}
           </p>
 
-          <ul className="ml-5 space-y-2 list-disc text-[14px] text-gray-100">
+          <ul
+            className={`ml-5 space-y-2 list-disc text-[14px] ${
+              index === 2 ? "text-black" : "text-gray-100"
+            }`}
+          >
             {experience.points.map((point, idx) => (
               <li key={`xp-${idx}`} className="tracking-wider">
                 {point}
