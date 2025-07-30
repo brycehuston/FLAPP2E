@@ -30,17 +30,30 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((Link) => (
+          {navLinks.map((link) => (
             <li
-              key={Link.id}
+              key={link.id}
               className={`${
-                active === Link.title ? 'text-white' : 'text-secondary'
+                active === link.title ? 'text-white' : 'text-secondary'
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(Link.title)}
+              onClick={() => setActive(link.title)}
             >
-              <a href={`#${Link.id}`}>{Link.title}</a>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+
+          {/* Presale External Link */}
+          <li>
+            <a
+              href="https://flapp2e.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-green-400 text-[18px] font-bold transition"
+              onClick={() => setActive('Presale')}
+            >
+              Presale
+            </a>
+          </li>
 
           {/* FLAP Button */}
           <li>
@@ -70,22 +83,38 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
-              {navLinks.map((Link) => (
+              {navLinks.map((link) => (
                 <li
-                  key={Link.id}
+                  key={link.id}
                   className={`${
-                    active === Link.title ? 'text-white' : 'text-secondary'
+                    active === link.title ? 'text-white' : 'text-secondary'
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(false);
-                    setActive(Link.title);
+                    setActive(link.title);
                   }}
                 >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
 
-              {/* FLAP Button in Mobile Menu */}
+              {/* Presale External Link */}
+              <li>
+                <a
+                  href="https://flapp2e.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-green-400 font-bold text-[16px]"
+                  onClick={() => {
+                    setToggle(false);
+                    setActive('Presale');
+                  }}
+                >
+                  Presale
+                </a>
+              </li>
+
+              {/* FLAP Button */}
               <li>
                 <a
                   href="https://play-flapp-2-e.vercel.app"

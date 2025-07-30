@@ -6,7 +6,8 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const currentPhase = 2; // Phase 3 (index 2)
+// Set Phase 4 (Pre-Launch) as the current live phase
+const currentPhase = 3;
 
 const ExperienceCard = ({ experience, index }) => (
   <VerticalTimelineElement
@@ -52,33 +53,33 @@ const ExperienceCard = ({ experience, index }) => (
     >
       <div
         className={`relative rounded-[20px] p-[2px] shadow-card ${
-          index === 2
+          index === currentPhase
             ? "bg-gradient-to-br from-yellow-400 via-yellow-300 to-yellow-400"
             : "card-shimmer green-pink-gradient"
         } ${index > currentPhase ? "opacity-50 grayscale" : ""}`}
       >
         <div
           className={`rounded-[18px] py-5 px-6 ${
-            index === 2
+            index === currentPhase
               ? "bg-[#fff8c7] text-black"
               : "bg-[#1a1a1a] text-white"
           }`}
         >
           <h3
             className={`text-[24px] font-extrabold flex items-center ${
-              index === 2 ? "text-black" : "text-white"
+              index === currentPhase ? "text-black" : "text-white"
             }`}
           >
             {experience.title}
-            {index === 2 && (
+            {index === currentPhase && (
               <span className="ml-3 px-2 py-1 text-xs bg-yellow-400 text-black rounded animate-pulse">
-                LIVE
+                SOON
               </span>
             )}
           </h3>
           <p
             className={`text-[16px] font-semibold mb-4 ${
-              index === 2 ? "text-black" : "text-gray-300"
+              index === currentPhase ? "text-black" : "text-gray-300"
             }`}
           >
             {experience.company_name}
@@ -86,7 +87,7 @@ const ExperienceCard = ({ experience, index }) => (
 
           <ul
             className={`ml-5 space-y-2 list-disc text-[14px] ${
-              index === 2 ? "text-black" : "text-gray-100"
+              index === currentPhase ? "text-black" : "text-gray-100"
             }`}
           >
             {experience.points.map((point, idx) => (

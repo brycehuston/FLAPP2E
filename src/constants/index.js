@@ -146,27 +146,39 @@ const experiences = [
         ],
     },
     {
-        title: "Token Launch",
+        title: "Pre-Launch",
         company_name: "Phase 4",
-        icon: vc,
-        iconBg: "#E6DEDD",
+        icon: js,
+        iconBg: "#383E56",
         date: "",
         points: [
-            "Launch $FLAP token & smart contract",
-            "Leaderboard support across all platforms",
-            "Wallet integration coming soon",
+            "Solana wallet support and live earnings tracking",
+            "Global creator marketing to boost awareness",
+            "Discounted presale access for early adopters"
         ],
     },
     {
-        title: "Global Expansion",
+        title: "Token Launch",
         company_name: "Phase 5",
         icon: js,
         iconBg: "#383E56",
         date: "",
         points: [
-            "List FLAP on CoinGecko & CoinMarketCap",
-            "Partner with influencers and gaming communities",
+            "$FLAP listings on CoinGecko & CMC for global visibility",
+            "Listings and banners on DEXTools, Birdeye & top platforms",
+            "Play-to-earn rewards activated for daily players"
+        ],
+    },
+    {
+        title: "Global Expansion",
+        company_name: "Phase 6",
+        icon: js,
+        iconBg: "#383E56",
+        date: "",
+        points: [
             "Host community tournaments and seasonal events",
+            "Introduce NFTs and in-game digital collectibles",
+            "Expand player base through strategic growth initiatives"
         ],
     },
 ];
@@ -223,7 +235,7 @@ const projects = [
         source_code_2: "https://vanillaart.crypto",
     },
     {
-        name: "1% BUY  3% SELL",
+        name: "3% BUY  5% SELL",
         description:
             "TAX",
         tags: [
