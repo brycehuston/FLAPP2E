@@ -42,7 +42,7 @@ const Navbar = () => {
             </li>
           ))}
 
-          {/* Presale External Link */}
+          {/* Presale External Link
           <li>
             <a
               href="https://flapp2e.com"
@@ -53,7 +53,7 @@ const Navbar = () => {
             >
               Presale
             </a>
-          </li>
+          </li> */}
 
           {/* FLAP Button */}
           <li>
