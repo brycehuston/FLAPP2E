@@ -6,8 +6,8 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-// Set Phase 4 (Pre-Launch) as the current live phase
-const currentPhase = 3;
+// Set Phase 5 (24HRS) as current live phase
+const currentPhase = 4;
 
 const ExperienceCard = ({ experience, index }) => (
   <VerticalTimelineElement
@@ -73,7 +73,12 @@ const ExperienceCard = ({ experience, index }) => (
             {experience.title}
             {index === currentPhase && (
               <span className="ml-3 px-2 py-1 text-xs bg-yellow-400 text-black rounded animate-pulse">
-                SOON
+                24HRS
+              </span>
+            )}
+            {index === currentPhase - 1 && (
+              <span className="ml-3 px-2 py-1 text-xs bg-green-500 text-black rounded">
+                DONE
               </span>
             )}
           </h3>
