@@ -73,7 +73,7 @@ const ExperienceCard = ({ experience, index }) => (
             {experience.title}
             {index === currentPhase && (
               <span className="ml-3 px-2 py-1 text-xs bg-yellow-400 text-black rounded animate-pulse">
-                24HRS
+                LAUNCHED 🚀
               </span>
             )}
             {index === currentPhase - 1 && (
