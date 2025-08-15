@@ -226,6 +226,14 @@
   background-size: 200% 200%;
 }
 
+.silver-gold-gradient {
+  background: linear-gradient(180deg, #c0c0c0 0%, #d4d4d4 35%, #f8d776 70%, #f0b90b 100%);
+}
+
+
+
+
+
 
 
 

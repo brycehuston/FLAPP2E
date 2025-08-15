@@ -1,3 +1,4 @@
+// src/constants/index.js
 import {
     mobile,
     backend,
@@ -25,87 +26,39 @@ import {
 } from "../assets";
 
 export const navLinks = [
-    {
-        id: "about",
-        title: "About",
-    },
-    {
-        id: "work",
-        title: "Road Map",
-    },
-    {
-        id: "token",
-        title: "Tokenomics",
-    },
-    {
-        id: "contact",
-        title: "Contact",
-    },
+    { id: "about", title: "About" },
+    { id: "work", title: "Road Map" },
+    { id: "token", title: "Tokenomics" },
+    { id: "contact", title: "Contact" },
 ];
 
 const services = [
-    {
-        title: "Innovative Gameplay",
-        icon: creator,
-    },
-    {
-        title: "Tokenomics and Rewards",
-        icon: backend,
-    },
-    {
-        title: "Tech-Savvy Development",
-        icon: mobile,
-    },
-    {
-        title: "Join the Adventure",
-        icon: web,
-    },
+    { title: "Innovative Gameplay", icon: creator },
+    { title: "Tokenomics and Rewards", icon: backend },
+    { title: "Tech-Savvy Development", icon: mobile },
+    { title: "Join the Adventure", icon: web },
 ];
 
 const services2 = [
-    {
-        title: "TELEGRAM",
-        icon: web,
-        url: "https://t.me/flapp2e",
-    },
-    {
-        title: "TWITTER",
-        icon: mobile,
-        url: "https://x.com/flapp2e",
-    },
-    {
-        title: "WHITEPAPER",
-        icon: backend,
-        url: "https://fruxs-organization.gitbook.io/flap-whitepaper",
-    },
-    {
-        title: "PLAY GAME",
-        icon: creator,
-        url: "https://play-flapp-2-e.vercel.app/",
-    },
+    { title: "TELEGRAM", icon: web, url: "https://t.me/flapp2e" },
+    { title: "TWITTER", icon: mobile, url: "https://x.com/flapp2e" },
+    { title: "WHITEPAPER", icon: backend, url: "https://fruxs-organization.gitbook.io/flap-whitepaper" },
+    { title: "PLAY GAME", icon: creator, url: "https://play-flapp-2-e.vercel.app/" },
+];
+
+const servicesRow2 = [
+    { title: "DISCORD", icon: vs, url: "https://discord.gg/your-link", gradient: "gold-gradient" },
+    { title: "GITHUB", icon: js, url: "https://github.com/your-org", gradient: "silver-gradient" },
+    { title: "PRESS KIT", icon: vc, url: "https://your-site.com/press", gradient: "gold-gradient" },
+    { title: "PARTNERS", icon: wp, url: "https://your-site.com/partners", gradient: "silver-gradient" },
 ];
 
 const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
+    { name: "HTML 5", icon: html },
+    { name: "CSS 3", icon: css },
+    { name: "JavaScript", icon: javascript },
+    { name: "TypeScript", icon: typescript },
+    { name: "React JS", icon: reactjs },
 ];
 
 const experiences = [
@@ -114,7 +67,6 @@ const experiences = [
         company_name: "Phase 1",
         icon: wp,
         iconBg: "#383E56",
-        //date: "26/05/2025",
         points: [
             "Launch X (Twitter) and Telegram",
             "Build early hype with teasers and community engagement",
@@ -126,7 +78,6 @@ const experiences = [
         company_name: "Phase 2",
         icon: vs,
         iconBg: "#E6DEDD",
-        //date: "20/06/2025",
         points: [
             "Launch official FLAP website",
             "Showcase tokenomics, roadmap, and community goals",
@@ -138,7 +89,6 @@ const experiences = [
         company_name: "Phase 3",
         icon: js,
         iconBg: "#383E56",
-        //date: "Coming Soon...",
         points: [
             "Launch and play on desktop + mobile",
             "Enable high score leaderboard",
@@ -154,7 +104,7 @@ const experiences = [
         points: [
             "Solana wallet support and live earnings tracking",
             "Global creator marketing to boost awareness",
-            "Discounted presale access for early adopters"
+            "Discounted presale access for early adopters",
         ],
     },
     {
@@ -166,7 +116,7 @@ const experiences = [
         points: [
             "$FLAP listings on CoinGecko & CMC for global visibility",
             "Listings and banners on DEXTools, Birdeye & top platforms",
-            "Play-to-earn rewards activated for daily players"
+            "Play-to-earn rewards activated for daily players",
         ],
     },
     {
@@ -178,7 +128,7 @@ const experiences = [
         points: [
             "Host community tournaments and seasonal events",
             "Introduce NFTs and in-game digital collectibles",
-            "Expand player base through strategic growth initiatives"
+            "Expand player base through strategic growth initiatives",
         ],
     },
 ];
@@ -197,83 +147,45 @@ const testimonials = [
 const projects = [
     {
         name: "FLAPP2E",
-        description:
-            "NAME",
-        tags: [
-            {
-                name: "FLAP",
-                color: "pink-text-gradient",
-            },
-        ],
+        description: "NAME",
+        tags: [{ name: "FLAP", color: "pink-text-gradient" }],
         image: threejscover,
         source_code_2: "https://vanillaart.ca",
     },
     {
         name: "FLAP",
-        description:
-            "SYMBOL",
-        tags: [
-            {
-                name: "PLAY2EARN",
-                color: "green-text-gradient",
-            },
-        ],
+        description: "SYMBOL",
+        tags: [{ name: "PLAY2EARN", color: "green-text-gradient" }],
         image: jobsearch,
-
     },
     {
         name: "SOLANA",
-        description:
-            "NETWORK",
-        tags: [
-            {
-                name: "BLOCKCHAIN",
-                color: "blue-text-gradient",
-            },
-        ],
+        description: "NETWORK",
+        tags: [{ name: "BLOCKCHAIN", color: "blue-text-gradient" }],
         image: nftmarket,
         source_code_2: "https://vanillaart.crypto",
     },
     {
         name: "3% BUY  5% SELL",
-        description:
-            "TAX",
-        tags: [
-            {
-                name: "TAXWALLET",
-                color: "blue-text-gradient",
-            },
-        ],
+        description: "TAX",
+        tags: [{ name: "TAXWALLET", color: "blue-text-gradient" }],
         image: carart,
         source_code_2: "https://pacificcarart.com/",
     },
     {
         name: "1 BILLION",
-        description:
-            "TOTAL SUPPLY",
-        tags: [
-
-            {
-                name: "SUPPLYCHAIN",
-                color: "pink-text-gradient",
-            },
-        ],
+        description: "TOTAL SUPPLY",
+        tags: [{ name: "SUPPLYCHAIN", color: "pink-text-gradient" }],
         image: bryce,
         source_code_2: "https://brycehuston.com/",
     },
     {
         name: "RENOUNCED",
-        description:
-            "CONTRACT",
-        tags: [
-            {
-                name: "OWNERSHIP",
-                color: "green-text-gradient",
-            },
-        ],
+        description: "CONTRACT",
+        tags: [{ name: "OWNERSHIP", color: "green-text-gradient" }],
         image: fitness,
         source_code_2: "https://mobilefitnessandmassage.com/",
     },
 ];
 
-export { services, services2, technologies, experiences, testimonials, projects, };
+export { services, services2, servicesRow2, technologies, experiences, testimonials, projects };
